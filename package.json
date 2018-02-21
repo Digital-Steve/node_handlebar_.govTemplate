@@ -1,0 +1,22 @@
+{
+  "name": "giftsandhospitality",
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.js",
+  "scripts": {
+    "bundle": "webpack --config webpack.config.js",
+    "prestart": "npm run bundle"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "es6-promise": "^4.2.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "node-fetch": "^1.7.3",
+    "webpack": "^3.10.0"
+  }
+}
