@@ -83,7 +83,10 @@
     margin-bottom: 3em !important;
   }
 }
-
+.main-content {
+  margin-top: 1.5em !important;
+  margin-bottom: 5em !important;
+}
 .heading-xlarge{
   font-family: "nta", Arial, sans-serif;
   font-weight: 700;
