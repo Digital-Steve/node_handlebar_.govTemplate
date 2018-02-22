@@ -24,6 +24,12 @@ app.get('/', (req, res) => {
   });
 });
 
+app.get('/firstPage', (req, res) => {
+  res.render('firstPage', {
+    title: 'First page'
+  });
+});
+
 const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, () => {
